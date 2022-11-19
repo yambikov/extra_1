@@ -1,0 +1,220 @@
+
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Roboto", sans-serif;
+  margin: 137px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-title__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  color: #161d25;
+  margin: 0;
+}
+.pricing-title__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #5d7085;
+  margin: 13px 0 68px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 266px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+.card:last-child {
+  margin-right: 0;
+}
+
+.card__colour_yellow {
+  background: linear-gradient(180deg, #fdc624 0%, #e6c434 100%);
+  border-radius: 2px;
+}
+.card__colour_cyan {
+  background: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+  border-radius: 2px;
+}
+.card__colour_blue {
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+  border-radius: 2px;
+}
+.card__colour_gray {
+  background: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+  border-radius: 2px;
+}
+
+.card__container {
+  width: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card__image {
+  height: 144px;
+  width: 90%;
+  margin-top: 48px;
+  align-self: center;
+
+}
+.card__image_colour_yellow {
+  background-image: url(./images/Snail\ Toy.H15.2k.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card__image_colour_cyan {
+  background-image: url(./images/Toy\ Car.H07\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card__image_colour_blue {
+  background-image: url(./images/Cartoon\ Minibus.G03\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card__image_colour_gray {
+  background-image: url(./images/Toy\ Cannon.G15.2k.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card__description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9px;
+  justify-content: flex-start;
+}
+.card__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  margin: 0;
+}
+.card__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 67px;
+  line-height: 79px;
+  letter-spacing: -0.1px;
+  margin: 27px 0 0px;
+  display: flex;
+}
+.currency {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.feature-list {
+  list-style-type: none;
+  margin: 6px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.feature-list__feature-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.feature-list__feature-container:last-child {
+  margin-bottom: 0;
+}
+
+.feature-list__img {
+  height: 7.968982219696045px;
+  width: 9.495072364807129px;
+  margin-right: 10px;
+  background-image: url("./images/Done.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.feature-list__text {
+  margin: 0;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+}
+.button {
+  width: 196px;
+  height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #ffffff;
+  margin-top: 46px;
+  margin-bottom: 36px;
+}
+.button__status_active {
+  color: #44A9FD;
+  background-color: white;
+}
+.most-popular {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 266px;
+  height: 31px;
+  background: linear-gradient(180deg, #63D6FE 0%, #5DD4F8 100%);
+border-radius: 2px 2px 0px 0px;
+}
+.most-popular__img {
+  background-image: url(./images/Star.png);
+  height: 13px;
+  width: 13px;
+  margin-bottom: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.most-popular__text {
+  margin: 1px 0 0 6px;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+}
+
